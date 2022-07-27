@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.filter li {
+    padding: 10px 20px;
+    width: 90px;
+    background-color: #eee;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.filter li.active,
+.filter li:hover {
+    background-color: rgb(218, 67, 97);
+    color: cornsilk;
+    margin-right: 6px;
+}
+
+.works {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.works img {
+    width: 150px;
+    height: 130px;
+    margin: 5px;
+    border: 2px solid rgb(218, 67, 97);
+    border-radius: 5px;
+}
